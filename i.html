@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Availability</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find Your Desired Animal</h1>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Country and Animal Selection -->
+        <section>
+            <label for="country">Select Your Country:</label>
+            <select id="country" onchange="showCities()">
+                <option value="">Select a country</option>
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Germany">Germany</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Brazil">Brazil</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+            <option value="Japan">Japan</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Turkey">Turkey</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="animal">Select an Animal:</label>
+            <select id="animal" onchange="showCities()">
+                <option value="">Select an animal</option>
+                <option value="Cat">Cat</option>
+                <option value="Dog">Dog</option>
+                <option value="Bird">Bird</option>
+                
+            </select>
+        </section>
+
+        <!-- Available Cities -->
+        <section id="citySection" style="display:none;">
+            <h3>Cities where this animal is available:</h3>
+            <ul id="cityList"></ul>
+        </section>
+
+        <!-- Footer with Google Maps button -->
+        <footer>
+            <button onclick="redirectToGoogleMaps()">See Google Map</button>
+        </footer>
+        <div class="A"> <a href="file:///D:/xblog/devpost/Animal/Main/index.html" class="button">Go to Homepage</a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

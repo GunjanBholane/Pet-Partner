@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Health Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pet Health Tracker</h1>
+        <form id="healthForm">
+            <label for="petName">Enter Pet Name:</label>
+            <input type="text" id="petName" required>
+            
+            <label for="breedSelect">Select Breed:</label>
+            <select id="breedSelect" required>
+                <option value="">Select Breed</option>
+                <option value="german_shepherd">German Shepherd</option>
+                <option value="labrador_retriever">Labrador Retriever</option>
+                <option value="golden_retriever">Golden Retriever</option>
+                <option value="bulldog">Bulldog</option>
+                <option value="other">Other</option> <!-- Added Other option -->
+            </select>
+            
+            <!-- New questions -->
+            <div class="question">
+                <label>Is your pet eating normally?</label>
+                <div>
+                    <input type="radio" name="eating" value="yes" required> <label>Yes</label>
+                    <input type="radio" name="eating" value="no"> <label>No</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>Is your pet drinking enough water?</label>
+                <div>
+                    <input type="radio" name="drinking" value="yes" required> <label>Yes</label>
+                    <input type="radio" name="drinking" value="no"> <label>No</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>Has your pet been active and playful?</label>
+                <div>
+                    <input type="radio" name="active" value="yes" required> <label>Yes</label>
+                    <input type="radio" name="active" value="no"> <label>No</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>Is your pet's coat shiny and clean?</label>
+                <div>
+                    <input type="radio" name="coat" value="yes" required> <label>Yes</label>
+                    <input type="radio" name="coat" value="no"> <label>No</label>
+                </div>
+            </div>
+            
+
+            <button type="submit">Track Health</button>
+        </form>
+
+        <div id="healthInfo" class="health-info">
+            <!-- Health information will be displayed here -->
+        </div>
+        <div class="A"> <a href="file:///D:/xblog/devpost/Animal/Main/index.html" class="button">Go to Homepage</a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

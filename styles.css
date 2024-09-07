@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    text-align: center;
+}
+
+header {
+    background-color: chocolate;
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    padding: 20px; /* Adjusted padding */
+    max-width: 800px;
+    margin: 20px auto; /* Added margin to create space from the top */
+    background: linear-gradient(145deg, rgb(209, 96, 15), chocolate); /* Shiny pink gradient */
+    background-color: wheat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid #e6b3e6; /* Light pink border */
+   color: white;
+   font-size: larger;
+}
+
+section {
+    margin: 20px 0;
+}
+
+label {
+    display: block; /* Ensures labels are on their own line */
+    margin-bottom: 5px; /* Space between label and select */
+}
+
+select, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: calc(100% - 22px); /* Full width minus padding */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+button {
+    background-color: #d2691e3e; /* Rich Orange */
+    color: white;
+    border: none; /* Removed the border */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px; /* Space above button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #edf41d; /* Darker orange on hover */
+    color: black;
+}
+
+
+#cityList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cityList li {
+    margin-bottom: 5px;
+}
+
+footer {
+    position: relative; /* Changed to relative for better layout */
+    width: 30%;
+    color: black; /* Changed to black for better contrast */
+    padding: 5px 10px; /* Reduced padding for a more compact look */
+    margin-top: 10px; /* Space above footer */
+    font-size: 14px; /* Optional: Adjust font size for a more compact look */
+    padding-left: 265px;
+}
+.A{
+    padding-left: 650px;
+    color: wheat;
+}
