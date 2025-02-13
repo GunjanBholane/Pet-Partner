@@ -12,6 +12,22 @@ The platform fosters responsible pet ownership by providing resources and tools 
 
 ## **1. Introduction**
 Pet Partner connects people with pets suited to their lifestyle, simplifying adoption through personalized suggestions. The four sections provide tools for finding pets, monitoring health, learning responsible care, and discovering local adoption options.
+![Main 4 Sections of Pet Partner](images/Fig.1 Main 4 sections of website.jpg)
+![Personality questions to choose best your budd](images/Fig.2Personality questions to choose best your buddy.jpg)
+
+![Perfect match based on user’s answers](images/Fig.5 Perfect match based on user’s answers 1 by 4.jpg)
+
+![Track your pet health by answering some questions about your pet](images/Fig.6 Track your pet health by answering some questions about your pet.jpg)
+
+![Health tips for your pet](images/Fig.7.1Health tips for your pet.jpg)
+
+![Fig.8 Methods to handle animals](images/Fig.8 Methods to handle animals.jpg)
+![ Do’s and don’ts for animals](images/Fig.9 Do’s and don’ts for animals.jpg)
+
+!Methods to handle animals](images/Fig.8 Methods to handle animals.jpg)
+![Select country and see cities where pets are available](images/Fig.10 Select country and see cities where pets are available.jpg)
+![available resources to shop pets](images/Fig.11 Explore available resources to shop pets.jpg)
+
 
 ## **2. Choose Your Best Buddy**
 Users answer a questionnaire to receive pet recommendations based on their living conditions, activity levels, and preferences. Key features include:
