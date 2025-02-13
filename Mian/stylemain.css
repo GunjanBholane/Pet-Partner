@@ -1,0 +1,74 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    border: 5px solid wheat;
+    display: inline-block;
+    text-align: center;
+    color: rgb(213, 91, 4);
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.flex {
+    height: 350px;          
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    background-color: chocolate;
+    justify-content: center; /* Center items horizontally */
+    align-content: flex-start; /* Adjust alignment to match wrapping */
+    border: 10px solid chocolate;
+    border-radius: 30px;
+}
+
+.blue, .silver, .pink, .yel {
+    height: 150px;
+    width: 580px; /* Adjust width if necessary */
+    margin: 10px; /* Adjust margins for spacing */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the link horizontally */
+    align-items: center; /* Center the link vertically */
+
+}
+
+/* Individual color styles */
+.blue {
+    background-color: wheat /* Change to a distinct color */
+}
+
+.pink {
+    background-color:wheat
+}
+
+.silver {
+    background-color: wheat
+}
+
+.yel {
+    background-color:wheat
+}
+
+.centered-link {
+    font-size: 40px; /* Set the font size to large */
+    color: rgb(120, 52, 3); /* Change the link color */
+    text-decoration: none; /* Remove underline from the link */
+    text-align: center; /* Center text within the link */
+    display: inline-block; 
+}
+
+p {
+    font-size: 18px; /* Optional: Set the font size */
+    color: black; /* Optional: Set the text color */
+    margin: 0; /* Remove default margin */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(172, 255, 47, 0.141);
+}
