@@ -23,6 +23,10 @@ Pet Partner connects people with pets suited to their lifestyle, simplifying ado
 ![Methods to handle animals](images/Fig.8%20Methods%20to%20handle%20animals.jpg)
 ![Select country and see cities where pets are available](images/Fig.10%20Select%20country%20and%20see%20cities%20where%20pets%20are%20available.jpg)
 ![Available resources to shop pets](images/Fig.11%20Explore%20available%20resources%20to%20shop%20pets.jpg)
+![Available resources to shop pets](images/Fig.12%20Available%20resources%20to%20shop%20pets.jpg)
+![Available resources to shop pets](images/Fig.13%20Available%20resources%20to%20shop%20pets.jpg)
+![Available resources to shop pets](images/Fig.14%20Available%20resources%20to%20shop%20pets.jpg)
+
 
 
 ## **2. Choose Your Best Buddy**
