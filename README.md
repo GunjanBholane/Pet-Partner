@@ -12,21 +12,17 @@ The platform fosters responsible pet ownership by providing resources and tools 
 
 ## **1. Introduction**
 Pet Partner connects people with pets suited to their lifestyle, simplifying adoption through personalized suggestions. The four sections provide tools for finding pets, monitoring health, learning responsible care, and discovering local adoption options.
-![Main 4 Sections of Pet Partner](images/Fig.1 Main 4 sections of website.jpg)
-![Personality questions to choose best your budd](images/Fig.2Personality questions to choose best your buddy.jpg)
 
-![Perfect match based on user’s answers](images/Fig.5 Perfect match based on user’s answers 1 by 4.jpg)
-
-![Track your pet health by answering some questions about your pet](images/Fig.6 Track your pet health by answering some questions about your pet.jpg)
-
-![Health tips for your pet](images/Fig.7.1Health tips for your pet.jpg)
-
-![Fig.8 Methods to handle animals](images/Fig.8 Methods to handle animals.jpg)
-![ Do’s and don’ts for animals](images/Fig.9 Do’s and don’ts for animals.jpg)
-
-!Methods to handle animals](images/Fig.8 Methods to handle animals.jpg)
-![Select country and see cities where pets are available](images/Fig.10 Select country and see cities where pets are available.jpg)
-![available resources to shop pets](images/Fig.11 Explore available resources to shop pets.jpg)
+![Main 4 Sections of Pet Partner](images/Fig.1%20Main%204%20sections%20of%20website.jpg)
+![Personality questions to choose best your buddy](images/Fig.2Personality%20questions%20to%20choose%20best%20your%20buddy.jpg)
+![Perfect match based on user’s answers](images/Fig.5%20Perfect%20match%20based%20on%20user’s%20answers%201%20by%204.jpg)
+![Track your pet health by answering some questions about your pet](images/Fig.6%20Track%20your%20pet%20health%20by%20answering%20some%20questions%20about%20your%20pet.jpg)
+![Health tips for your pet](images/Fig.7.1Health%20tips%20for%20your%20pet.jpg)
+![Fig.8 Methods to handle animals](images/Fig.8%20Methods%20to%20handle%20animals.jpg)
+![Do’s and don’ts for animals](images/Fig.9%20Do’s%20and%20don’ts%20for%20animals.jpg)
+![Methods to handle animals](images/Fig.8%20Methods%20to%20handle%20animals.jpg)
+![Select country and see cities where pets are available](images/Fig.10%20Select%20country%20and%20see%20cities%20where%20pets%20are%20available.jpg)
+![Available resources to shop pets](images/Fig.11%20Explore%20available%20resources%20to%20shop%20pets.jpg)
 
 
 ## **2. Choose Your Best Buddy**
