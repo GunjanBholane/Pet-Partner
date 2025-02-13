@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Personality Matcher</title>
+    <link rel="stylesheet" href="stylesP.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Perfect Pet Partner!</h1>
+        <div id="quiz-container">
+            <h2>Take the Personality Quiz</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <label>How do you prefer to spend your weekends?</label>
+                    <select class="answer" name="weekend" required>
+                        <option value="outdoors">Outdoors</option>
+                        <option value="indoors">Indoors</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>Do you have experience with pets?</label>
+                    <select class="answer" name="experience" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                
+                
+                
+                <div class="question">
+                    <label>What kind of environment do you live in?</label>
+                    <select class="answer" name="environment" required>
+                        <option value="urban">Urban</option>
+                        <option value="suburban">Suburban</option>
+                        <option value="rural">Rural</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>How much time can you spend on pet care daily?</label>
+                    <select class="answer" name="caretime" required>
+                        <option value="less_than_1_hour">Less than 1 hour</option>
+                        <option value="1_to_3_hours">1 to 3 hours</option>
+                        <option value="more_than_3_hours">More than 3 hours</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>What kind of personality do you prefer in a pet?</label>
+                    <select class="answer" name="personality" required>
+                        <option value="calm">Calm</option>
+                        <option value="playful">Playful</option>
+                        <option value="independent">Independent</option>
+                        <option value="affectionate">Affectionate</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Are you looking for a low-maintenance pet?</label>
+                    <select class="answer" name="maintenance" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>How active are you on a daily basis?</label>
+                    <select class="answer" name="activity" required>
+                        <option value="very_active">Very active</option>
+                        <option value="moderately_active">Moderately active</option>
+                        <option value="not_active">Not very active</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Do you have any allergies to pets?</label>
+                    <select class="answer" name="allergies" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>What size of pet are you comfortable with?</label>
+                    <select class="answer" name="pet_size" required>
+                        <option value="small">Small (e.g., hamsters, small dogs)</option>
+                        <option value="medium">Medium (e.g., cats, medium dogs)</option>
+                        <option value="large">Large (e.g., large dogs, large birds)</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>How much space do you have available for a pet?</label>
+                    <select class="answer" name="space" required>
+                        <option value="small_space">Small space (e.g., apartment)</option>
+                        <option value="medium_space">Medium space (e.g., house with yard)</option>
+                        <option value="large_space">Large space (e.g., farm or large yard)</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Are you okay with a pet that requires regular grooming?</label>
+                    <select class="answer" name="grooming" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Do you want a pet that can live for a long time?</label>
+                    <select class="answer" name="lifespan" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Do you prefer a pet that is more independent or one that requires constant companionship?</label>
+                    <select class="answer" name="companionship" required>
+                        <option value="independent">Independent</option>
+                        <option value="constant">Requires constant companionship</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Would you prefer a pet that is easy to train?</label>
+                    <select class="answer" name="trainability" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>Are you open to adopting exotic pets?</label>
+                    <select class="answer" name="exotic_pets" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <label>How much are you willing to spend on pet care monthly?</label>
+                    <select class="answer" name="budget" required>
+                        <option value="low">Low budget (under $50)</option>
+                        <option value="medium">Medium budget ($50 - $200)</option>
+                        <option value="high">High budget (over $200)</option>
+                    </select>
+                </div>
+                
+                
+                <button type="submit">Get My Pet Match!</button>
+            </form>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Perfect Pet Match:</h2>
+            <p id="pet-result"></p>
+            <img id="pet-image" src="" alt="Pet Image" style="max-width: 100%; height: auto;">
+            <button onclick="restartQuiz()">Restart Quiz</button>
+            
+        </div>
+        <div class="A"> <a href="file:///D:/xblog/devpost/Animal/Main/indexM.html" class="button">Go to Homepage</a>
+        </div>
+    </div>
+    <script src="scriptP.js"></script>
+</body>
+</html>
